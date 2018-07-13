@@ -20,9 +20,9 @@ html {
 
 /* Write your solution here */
 
-@media all and (min-width: 642px) and (max-width: 1090px) {
+@media only screen and (min-width: 642px) and (max-width: 1090px) {
   #dolphin {
-    top: 0px;
     transform: scale(-1, 1);
+    top: 100px;
   }
 }
