@@ -14,5 +14,16 @@ html {
   #ostrich {
     top: -75px;
   }
+}
 
+@media only screen and (max-width: 1000px) {
+  #ostrich {
+    top: -100px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #ostrich {
+    top: -100px;
+  }
 }
